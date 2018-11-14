@@ -1,1 +1,3 @@
-# FortuneTeller
+This application provides user with random answers on his questions. App has a menu. If user choose first opportunity, he can shake the phone to get answer on the screen. Second menu item gives the "shake" button to be pressed to get the answer. When user press the button he can see the animation (shaking black circle) and turning the device gives vibrate sound.
+To regognize shaking movement device has built-in sensors which allow monitoring three-dimensional device movement. This app uses a motion sensor service. MainActivity uses motion sensor to get in contact with user. ShakeActivity regognize not only shake movement but OnClick command as well.
+Used sensor has harware type, TYPE_ACCELEROMETER.
